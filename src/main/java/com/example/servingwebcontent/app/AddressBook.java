@@ -76,7 +76,7 @@ public class AddressBook {
         this.buddyInfos = buddyInfos;
     }
 
-    public static void main(String[] args){
+  /*  public static void main(String[] args){
         AddressBook a = new AddressBook();
         BuddyInfo aa = new BuddyInfo("aaa","111","231321321");
         BuddyInfo bb = new BuddyInfo("bbb","222","221321321");
@@ -84,6 +84,6 @@ public class AddressBook {
         a.addBuddy(bb);
         a.removeBuddy();
         a.toString();
-    }
+    }*/
 
 }
