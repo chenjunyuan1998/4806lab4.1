@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
+public
 class BuddyController {
     @Autowired
     AddressBookRepository repository;
