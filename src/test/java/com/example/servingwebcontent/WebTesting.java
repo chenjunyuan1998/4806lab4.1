@@ -28,9 +28,11 @@ class WebTesting {
 
     @Test
     public void greetingShouldReturnMessageFromService() throws Exception {
-        when(service.greet()).thenReturn("Hello, Mock");
+
         this.mockMvc.perform(get("/result")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("<p>Address</p>")));
+                .andExpect(content().string(containsString("    <p>Jack assada sassa121sa\n" +
+                        "Jasadck assadsada sassasad121sa\n" +
+                        "</p>")));
     }
 }
 
